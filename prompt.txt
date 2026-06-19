@@ -1,0 +1,9 @@
+Cree un código Python para una regresión logística utilizando un marco de datos de tres columnas.
+Primera columna Tiempo como cliente como vaiarblediscreta, segunda columna Total Pagado en los últimos 12 meses como variable continua y tercera columna Deuda Total en Mora como variable continua.
+Objetivo binario variable de pagar o no pagar la deuda.
+Genere todas las variables aleatoriamente usando numpy.
+Establezca la semilla para que todas las variables obtengan siempre el mismo valor.
+Guarde los datos en un Excel llamado fintech.xlsx sin índice.
+Divida los datos en tren y prueba.
+Valide el modelo utilizando el informe de clasificación tanto en los datos del tren como en los de prueba.
+Vuelque el modelo en un archivo usando joblib, llame al archivo model.joblib
